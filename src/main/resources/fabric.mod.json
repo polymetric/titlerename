@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "titlerename",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "TitleRename",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "polymetric"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,17 +19,17 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.nodium.mcmods.titlerename.TitleRename"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "titlerename.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",
-    "minecraft": "1.16.x"
+    "minecraft": "1.15.x"
   },
   "suggests": {
     "flamingo": "*"
